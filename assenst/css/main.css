@@ -1,0 +1,64 @@
+p {
+    font-size: 1.5rem;
+}
+
+img{
+    width:50%;
+}
+.btn-link{
+    color: #9B859B;
+    font-weight: 600;
+}
+.btn-link:hover{
+    color: #b54fe8;
+}
+#AA
+{
+    /*text-align: right;
+    float: right;*/
+    position: absolute;
+    right: 20px;
+    font-weight: 700;
+
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    z-index: 9;
+    width: 100%;
+    background-color: rgba(156, 158, 156, 0.46) !important
+
+}
+.navbar-brand{
+    font-weight: 700;
+}
+.ust-bosluk{
+    margin-top: 40px;
+}
+.carousel-caption{
+    bottom: -30px;
+}
+.iletisim-image{
+    width: 100%;
+}
+.footer{
+    height: 50px;
+    margin-top: 80px;
+    background-color: grey;
+    text-align: center;
+    padding-top: 13px;
+}
+.nufus{
+    font-size: 600;
+    color: #080808;
+}
+.rtejustify{
+    margin-top: 40px;
+}
+.sehir-p{
+    font-size: 1.2rem;
+}
+.gezilecekyer{
+    background: #15141426;
+    text-align: center;
+}
