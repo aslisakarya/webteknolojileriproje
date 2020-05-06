@@ -62,3 +62,25 @@ img{
     background: #15141426;
     text-align: center;
 }
+.login-container{
+    margin-top: 80px;
+}
+.login-containerr{
+    margin-top: 150px;
+}
+.cv-table{
+    width: 70%;
+}
+.cv-table td{
+    width: 10%;
+    font-weight: 700;
+}
+.cv-table tbody{
+    margin-top: 20px;
+}
+.cv-thead td{
+    padding-bottom: 40px;
+}
+.right-td{
+    font-weight: 400 !important;
+}
