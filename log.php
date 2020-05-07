@@ -48,19 +48,26 @@
               <?php 
               }
               ?>      
-              <form method="POST" action="login.php" autocomplete="off">
-                        <div class="form-group">
-                        <label for="exampleInputEmail1">Mail</label>
-                        <input type="email" name="mail" class="form-control" id="mail" aria-describedby="emailHelp" required>
-                        </div>
+              <div id="error"></div>
+              <form id="loginForm" method="POST" action="login.php" autocomplete="off">
+              <div class="input-group input-group-lg mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-lg">Email</span>
+        </div>
+        <input type="email" class="form-control" id="mail" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" name="mail" required>
+    </div>
                         <div class="form-group">
                         <label for="exampleInputPassword1">Şifre</label>
                         <input name="password" type="password" class="form-control" id="password" required>
                         </div>
-                        <button onclick="submitFunction()" type="submit" class="btn btn-primary">Gönder</button>
+                        <button onclick="loginFunction()" type="button" class="btn btn-primary">Gönder</button>
                     </form> 
               </div>
                 
           </div>
+          <script src="assenst\js\jquery-3.4.1.min.js"></script>
+         <script src="https://unpkg.com/imask"></script>
+         <script src="assenst/js/bootstrap.min.js"></script>
+         <script src="assenst/js/main.js"></script>
 </body>
 </html>

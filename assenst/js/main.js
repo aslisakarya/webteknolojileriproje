@@ -5,7 +5,22 @@ function resetFunction() {
     document.getElementById('phone-mask'), {
       mask: '+{90}(000)000-00-00'
     });
-    function submitFunction(){
+    function loginFunction(){
+      var x = '';
+      inputText = document.getElementById('mail');
+      var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+      if(inputText.value.match(mailformat))
+      {
+        document.getElementById('loginForm').submit();
+      }
+      else
+      {
+        x = x+'<div class="alert alert-danger" role="alert">Lütfen Geçerli Bir Email Giriniz !</div>';
+      inputText.focus();
+      }
+      document.getElementById("error").innerHTML = x;
+    }
+    function submitFunction(){ 
       var e = document.getElementById("iletisim");
   var strUser = e.options[e.selectedIndex].value;
       var x = '';
